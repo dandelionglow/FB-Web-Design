@@ -1,0 +1,141 @@
+form{
+    height:570px;
+    width: 405px;
+    margin: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    justify-content:center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    margin-bottom:60px;
+    margin-top:20px;
+    
+}  
+input{
+    padding:12px;
+    width:85%;
+    border-radius:1px;
+    background-color:white;
+    border-radius: 4px;
+    hover-color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:white;
+}
+
+h1{
+    color:blue;
+    text-align:center;
+    font-size:55px;
+    font-family:sans-serif;
+    margin-top:-25px;
+    margin-bottom:15px;
+   }
+h2{
+    color:black;
+    font-family:Arial;
+    margin-top:1px;
+}
+p{
+    color:grey;
+    text-align:center;
+    margin-top:-15px;
+    font-family:sans-serif;
+}
+body{
+    background-color: #f2f4f7;
+   }
+button[class="SignUp"] {
+       padding: 8px;
+       width: 50%;
+       color: white;
+       background:#13cf13;
+       border-radius: 8px;
+       font-size:20px;
+       font-weight:bold;
+       font-family:Arial;
+       border:none  ;
+}
+button[class="SignUp"]:hover{
+    background-color:green;
+    color:white;
+   
+  } 
+.gender>.male,.gender>.female,.gender>.custom {
+    display: flex;
+    width: 30%;           
+    padding: 8px 8px;    
+    font-size: 15px;       
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:12px;
+    margin-right:14px;
+    margin-top:10px;
+    flex-direction:row;
+    margin-bottom:10px;
+    
+  }
+  .gender{
+    display: flex;
+    justify-content: space-between;
+    gap:-20px;
+  }
+.name{                                                                          
+
+    display:flex;
+    margin:10px;
+    gap:10px;
+    width:95%;
+}
+.date>.dat,.date>.mon,.date>.year {
+    width:100%;
+    padding:8px 8px;
+    font-size:15px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:12px;
+    margin-right:14px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    gap:-20px;
+}
+a{
+    text-decoration:none;
+    color:#0084FF;
+    font-family:Arial;
+    margin-bottom:40px;
+}
+hr{
+    border:-2px solid #ccc;
+    width:400px;
+    margin:20px 0px;
+}
+.pra{
+    font-size:10px;
+    margin-top:10px;
+}
+.lab{
+    margin-right:290px;
+}
+.label{
+    margin-right:320px;
+}
+.re{
+    text-align:left;
+    margin-left:20px;
+    margin-top:-10px;
+}

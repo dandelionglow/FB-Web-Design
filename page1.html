@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="left">
+        <div class="logo">
+            <div class="head">
+                <h1>facebook</h1>
+            </div>
+            <div class="prep">
+                <pre>Connect with friends and the world around you on Facebook.</pre>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <form id="loginForm" onsubmit="validateForm(event)">
+            <input class="email" id="email" type="email" placeholder="Email address" required><br><br>
+            <span class="error" id="emailError"></span>
+
+            <input class="password" id="password" type="password" placeholder="Password" required><br><br>
+            <span class="error" id="passwordError"></span>
+
+            <button class="Log in" type="submit">Log In</button><br><br>
+
+            <a href="/forgot-password.html">Forgotten Password?</a><br><br>
+            <hr>
+            <button class="Create new account" type="button" onclick="redirect()">Create new account</button><br>
+        </form>
+    </div>
+</body>
+</html>
